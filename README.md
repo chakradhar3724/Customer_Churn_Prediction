@@ -195,6 +195,8 @@ python churn_prediction.py
 
 **Chakradhar Peddavenkatagari**
 
+Aspiring AI Engineer
+
 Masters in Computer Science
 
 State University of New York at Buffalo
