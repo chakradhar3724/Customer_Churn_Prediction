@@ -1,6 +1,6 @@
 # Customer Churn Prediction using Machine Learning
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on predicting **customer churn** for a telecom company using **machine learning classification models**. Customer churn refers to customers who stop using a company’s services. Accurately predicting churn helps businesses take proactive steps to retain customers.
 
@@ -13,7 +13,7 @@ The dataset used is the popular **Telco Customer Churn Dataset**, containing cus
 
 ---
 
-## 📂 Dataset Description
+## Dataset Description
 
 * **Rows:** 7,043 customers
 * **Columns:** 21 features (after removing `customerID`)
@@ -30,7 +30,7 @@ The dataset used is the popular **Telco Customer Churn Dataset**, containing cus
 
 ---
 
-## 🛠️ Technologies & Libraries Used
+## Technologies & Libraries Used
 
 * **Python**
 * **Pandas** – Data manipulation
@@ -41,7 +41,7 @@ The dataset used is the popular **Telco Customer Churn Dataset**, containing cus
 
 ---
 
-## 🔄 Data Preprocessing
+## Data Preprocessing
 
 1. **Dropped Irrelevant Column**
 
@@ -71,7 +71,7 @@ The dataset used is the popular **Telco Customer Churn Dataset**, containing cus
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 The following analyses were performed:
 
@@ -85,7 +85,7 @@ These insights help understand customer behavior and key churn drivers.
 
 ---
 
-## 🤖 Models Implemented
+## Models Implemented
 
 ### 1️⃣ Random Forest Classifier
 
@@ -116,7 +116,7 @@ These insights help understand customer behavior and key churn drivers.
 
 ---
 
-## 📈 Model Evaluation Metrics
+## Model Evaluation Metrics
 
 Both models were evaluated using:
 
@@ -130,7 +130,7 @@ This provides a balanced evaluation, especially considering class imbalance.
 
 ---
 
-## 🔍 Feature Importance Analysis
+## Feature Importance Analysis
 
 * Feature importance was extracted from the **Random Forest model**
 * Top contributing features include:
@@ -145,7 +145,7 @@ A horizontal bar chart visualizes the **Top 10 most important features** influen
 
 ---
 
-## 📌 Results Summary
+## Results Summary
 
 | Model         | Accuracy | Churn Recall |
 | ------------- | -------- | ------------ |
@@ -159,7 +159,7 @@ A horizontal bar chart visualizes the **Top 10 most important features** influen
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 1. Clone the repository
 
@@ -181,7 +181,7 @@ python churn_prediction.py
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Use **One-Hot Encoding** instead of Label Encoding
 * Hyperparameter tuning using **GridSearchCV / Optuna**
@@ -191,7 +191,7 @@ python churn_prediction.py
 
 ---
 
-## 👤 Author
+## Author
 
 **Chakradhar Peddavenkatagari**
 
